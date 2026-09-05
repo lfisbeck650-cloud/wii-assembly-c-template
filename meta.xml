@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app version="1">
+  <name>Homebrew Template</name>
+  <coder>Lenny</coder>
+  <version>1.0</version>
+  <release_date>20260905000000</release_date>
+  <short_description>Reusable template for Wii homebrew projects</short_description>
+  <long_description>This is a reusable template project for building homebrew applications for the Nintendo Wii using devkitPPC. It comes with a working build setup (Makefile) and an example that shows how C code can call routines written in PowerPC assembly. Use this template as a starting point for your own projects: copy the folder, rename the output target, edit source/main.c and source/math.asm, and run make. Building for your own project: set DEVKITPPC in your environment and run make to produce a .dol, then use main.py to package it into a .zip with boot.dol, meta.xml and icon.png.</long_description>
+  <arguments>
+    <arg/>
+  </arguments>
+</app>
